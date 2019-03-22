@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		613DC1422240C94600D8D09E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DC1412240C94600D8D09E /* AppDelegate.swift */; };
-		613DC1442240C94600D8D09E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DC1432240C94600D8D09E /* ViewController.swift */; };
+		613DC1442240C94600D8D09E /* LCListOfContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DC1432240C94600D8D09E /* LCListOfContactsViewController.swift */; };
 		613DC1472240C94600D8D09E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613DC1452240C94600D8D09E /* Main.storyboard */; };
 		613DC14A2240C94600D8D09E /* ListOfContacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 613DC1482240C94600D8D09E /* ListOfContacts.xcdatamodeld */; };
 		613DC14C2240C94900D8D09E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613DC14B2240C94900D8D09E /* Assets.xcassets */; };
 		613DC14F2240C94900D8D09E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613DC14D2240C94900D8D09E /* LaunchScreen.storyboard */; };
+		613DC15A2240CACF00D8D09E /* LCContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DC1592240CACF00D8D09E /* LCContactTableViewCell.swift */; };
+		613DC15C2240E9F300D8D09E /* LCContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DC15B2240E9F300D8D09E /* LCContact.swift */; };
+		613DC15E22417B2B00D8D09E /* LCFriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DC15D22417B2B00D8D09E /* LCFriendTableViewCell.swift */; };
+		613DC16022417F6A00D8D09E /* LCColleagueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DC15F22417F6A00D8D09E /* LCColleagueTableViewCell.swift */; };
+		613DC1622242256A00D8D09E /* LCContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DC1612242256900D8D09E /* LCContactDetailViewController.swift */; };
+		613DC1682242289E00D8D09E /* LCContactImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DC1672242289E00D8D09E /* LCContactImageTableViewCell.swift */; };
+		613DC16D224247C200D8D09E /* LCImageSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DC16C224247C200D8D09E /* LCImageSourceViewController.swift */; };
+		613DC17022425A9B00D8D09E /* LCSaveChangesQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DC16F22425A9B00D8D09E /* LCSaveChangesQuestionViewController.swift */; };
+		613DC1722242ADB300D8D09E /* LCTextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DC1712242ADB300D8D09E /* LCTextFieldTableViewCell.swift */; };
+		613DC17622438B8B00D8D09E /* LCTitledSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DC17522438B8B00D8D09E /* LCTitledSwitchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		613DC13E2240C94500D8D09E /* ListOfContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListOfContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		613DC1412240C94600D8D09E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		613DC1432240C94600D8D09E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		613DC1432240C94600D8D09E /* LCListOfContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCListOfContactsViewController.swift; sourceTree = "<group>"; };
 		613DC1462240C94600D8D09E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		613DC1492240C94600D8D09E /* ListOfContacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ListOfContacts.xcdatamodel; sourceTree = "<group>"; };
 		613DC14B2240C94900D8D09E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		613DC14E2240C94900D8D09E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		613DC1502240C94900D8D09E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613DC1592240CACF00D8D09E /* LCContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCContactTableViewCell.swift; sourceTree = "<group>"; };
+		613DC15B2240E9F300D8D09E /* LCContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCContact.swift; sourceTree = "<group>"; };
+		613DC15D22417B2B00D8D09E /* LCFriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCFriendTableViewCell.swift; sourceTree = "<group>"; };
+		613DC15F22417F6A00D8D09E /* LCColleagueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCColleagueTableViewCell.swift; sourceTree = "<group>"; };
+		613DC1612242256900D8D09E /* LCContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCContactDetailViewController.swift; sourceTree = "<group>"; };
+		613DC1672242289E00D8D09E /* LCContactImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCContactImageTableViewCell.swift; sourceTree = "<group>"; };
+		613DC16C224247C200D8D09E /* LCImageSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCImageSourceViewController.swift; sourceTree = "<group>"; };
+		613DC16F22425A9B00D8D09E /* LCSaveChangesQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCSaveChangesQuestionViewController.swift; sourceTree = "<group>"; };
+		613DC1712242ADB300D8D09E /* LCTextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		613DC17522438B8B00D8D09E /* LCTitledSwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTitledSwitchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +77,10 @@
 			isa = PBXGroup;
 			children = (
 				613DC1412240C94600D8D09E /* AppDelegate.swift */,
-				613DC1432240C94600D8D09E /* ViewController.swift */,
+				613DC1572240C9B200D8D09E /* Model */,
+				613DC1582240CA7A00D8D09E /* Detail */,
+				613DC1562240C99E00D8D09E /* List */,
+				61D02D6622445D5A000772B1 /* Additional controllers */,
 				613DC1452240C94600D8D09E /* Main.storyboard */,
 				613DC14B2240C94900D8D09E /* Assets.xcassets */,
 				613DC14D2240C94900D8D09E /* LaunchScreen.storyboard */,
@@ -65,6 +88,93 @@
 				613DC1482240C94600D8D09E /* ListOfContacts.xcdatamodeld */,
 			);
 			path = ListOfContacts;
+			sourceTree = "<group>";
+		};
+		613DC1562240C99E00D8D09E /* List */ = {
+			isa = PBXGroup;
+			children = (
+				613DC1632242264500D8D09E /* ViewController */,
+				613DC1642242265100D8D09E /* Views */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		613DC1572240C9B200D8D09E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				613DC15B2240E9F300D8D09E /* LCContact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		613DC1582240CA7A00D8D09E /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				613DC1652242267600D8D09E /* ViewContoller */,
+				613DC1662242268600D8D09E /* Views */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		613DC1632242264500D8D09E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				613DC1432240C94600D8D09E /* LCListOfContactsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		613DC1642242265100D8D09E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				613DC1592240CACF00D8D09E /* LCContactTableViewCell.swift */,
+				613DC15F22417F6A00D8D09E /* LCColleagueTableViewCell.swift */,
+				613DC15D22417B2B00D8D09E /* LCFriendTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		613DC1652242267600D8D09E /* ViewContoller */ = {
+			isa = PBXGroup;
+			children = (
+				613DC1612242256900D8D09E /* LCContactDetailViewController.swift */,
+			);
+			path = ViewContoller;
+			sourceTree = "<group>";
+		};
+		613DC1662242268600D8D09E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				613DC1672242289E00D8D09E /* LCContactImageTableViewCell.swift */,
+				613DC1712242ADB300D8D09E /* LCTextFieldTableViewCell.swift */,
+				613DC17522438B8B00D8D09E /* LCTitledSwitchTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		613DC1692242475F00D8D09E /* ImageSource */ = {
+			isa = PBXGroup;
+			children = (
+				613DC16C224247C200D8D09E /* LCImageSourceViewController.swift */,
+			);
+			path = ImageSource;
+			sourceTree = "<group>";
+		};
+		613DC16E22425A1F00D8D09E /* SaveChanges */ = {
+			isa = PBXGroup;
+			children = (
+				613DC16F22425A9B00D8D09E /* LCSaveChangesQuestionViewController.swift */,
+			);
+			path = SaveChanges;
+			sourceTree = "<group>";
+		};
+		61D02D6622445D5A000772B1 /* Additional controllers */ = {
+			isa = PBXGroup;
+			children = (
+				613DC1692242475F00D8D09E /* ImageSource */,
+				613DC16E22425A1F00D8D09E /* SaveChanges */,
+			);
+			path = "Additional controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +248,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				613DC15C2240E9F300D8D09E /* LCContact.swift in Sources */,
 				613DC14A2240C94600D8D09E /* ListOfContacts.xcdatamodeld in Sources */,
-				613DC1442240C94600D8D09E /* ViewController.swift in Sources */,
+				613DC15E22417B2B00D8D09E /* LCFriendTableViewCell.swift in Sources */,
+				613DC1622242256A00D8D09E /* LCContactDetailViewController.swift in Sources */,
+				613DC1722242ADB300D8D09E /* LCTextFieldTableViewCell.swift in Sources */,
+				613DC17022425A9B00D8D09E /* LCSaveChangesQuestionViewController.swift in Sources */,
+				613DC1442240C94600D8D09E /* LCListOfContactsViewController.swift in Sources */,
+				613DC15A2240CACF00D8D09E /* LCContactTableViewCell.swift in Sources */,
+				613DC16022417F6A00D8D09E /* LCColleagueTableViewCell.swift in Sources */,
+				613DC17622438B8B00D8D09E /* LCTitledSwitchTableViewCell.swift in Sources */,
 				613DC1422240C94600D8D09E /* AppDelegate.swift in Sources */,
+				613DC16D224247C200D8D09E /* LCImageSourceViewController.swift in Sources */,
+				613DC1682242289E00D8D09E /* LCContactImageTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +409,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9A9LR934E6;
 				INFOPLIST_FILE = ListOfContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +417,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ListOfContacts.com.ListOfContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,6 +428,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9A9LR934E6;
 				INFOPLIST_FILE = ListOfContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +436,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ListOfContacts.com.ListOfContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
